@@ -22,8 +22,8 @@ if [[ -z $2 ]]; then
     echo "No GCS Output Bucket Specified"
 else
     if [ -d "$1" ] && [ $(ls -A "$1" | wc -l) -ne 0 ]; then
-        echo gsutil cp -R $1/* $2
-        gsutil cp -R $1/* $2
+        echo gcloud storage cp --recursive $1/* $2
+        gcloud storage cp --recursive $1/* $2
     else
         echo "No output generated."
     fi
