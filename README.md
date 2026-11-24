@@ -1,3 +1,9 @@
+> [!WARNING]
+> **This repository is archived and no longer actively maintained.**
+>
+> * **11/24/2026 (gkcng):** The open-sourced destination is no longer publically accessible. 
+> * **Replacement:** None. The features supported by this repo is obsolete.
+
 # Distributed training with DeepSpeed on Vertex AI
 
 Note: This project is for demonstration only and is not an officially supported Google product. 
